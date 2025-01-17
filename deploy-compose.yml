@@ -3,7 +3,7 @@ services:
   api:
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.librechat.rule=Host(`your.domain.name`)"
+        - "traefik.http.routers.librechat.rule=Host(`libre.aibc.tn`)"
         - "traefik.http.routers.librechat.entrypoints=websecure"
         - "traefik.http.routers.librechat.tls.certresolver=leresolver"
         - "traefik.http.services.librechat.loadbalancer.server.port=3080"
