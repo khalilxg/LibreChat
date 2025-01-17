@@ -172,8 +172,7 @@
 #      - POSTGRES_DB=postgres
 #    volumes:
 #      - ./postgres:/var/lib/postgresql/data
-version: '3'
- 
+
 services:
     api:
       labels:
